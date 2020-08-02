@@ -2,6 +2,7 @@
 
 Pobieramy repozytorium
 ```bash
+https://github.com/ravjanisz/nbp-laravel-docker.git
 ```
 
 Wykonujemy po pobraniu repozytorium
