@@ -23,11 +23,16 @@ Wykonujemy
 ```bash
 docker ps
 ```
-Kopiujemy nazwę kontenera aplikacji 
+Kopiujemy nazwę kontenera bazy danych 
 ```bash
 docker inspect NAZWA | grep "IPAddress"
 ```
 IP które otrzymaliśmy dodajemy do pliku .env i klucza: DB_HOST
+
+Kopiujemy nazwę kontenera aplikacji 
+```bash
+docker inspect NAZWA | grep "IPAddress"
+```
 
 Uruchamiamy powłokę kontenera
 ```bash
