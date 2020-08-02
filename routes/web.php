@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*
-Route::get('/', function () {
-    return view('welcome');
+Route::fallback(function(){
+    return response()->json([
+        'status' => 'error',
+        'message' => 'Page Not Found - 404'
+    ], 404);
 });
-//*/
